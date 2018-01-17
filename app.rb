@@ -11,6 +11,7 @@ class App < Sinatra::Base
     @point_guard = params[:pg]
     @shooting_guard = params[:sg]
     @small_forward = params[:sf]
+    @power_forward = params[:pf]
     erb :team
   end
 
