@@ -8,7 +8,7 @@ class App < Sinatra::Base
   post '/team' do
     @team_name = params[:name]
     @coach = params[:coach]
-    point_guard = params[:pg]
+    @point_guard = params[:pg]
     erb :team
   end
 
